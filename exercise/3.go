@@ -1,6 +1,7 @@
 package exercise
 
 // [3]无重复字符的最长子串的长度
+// 滑动窗口
 func LengthOfLongestSubstring(s string) int {
 	n := len(s)
 	right := 0

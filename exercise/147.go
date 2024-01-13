@@ -3,6 +3,7 @@ package exercise
 import "math"
 
 // 最小栈
+// 辅助栈
 type MinStackWrap struct {
 	Stack    []int
 	MinStack []int

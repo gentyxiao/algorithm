@@ -3,6 +3,7 @@ package exercise
 import "sort"
 
 // [53]最大子数组和
+// 动态规划
 func MaxSunArray(nums []int) int {
 	dp := make([]int, len(nums))
 	dp[0] = nums[0]
