@@ -1,7 +1,8 @@
-package stack
+package exercise
 
 import "math"
 
+// 最小栈
 type MinStackWrap struct {
 	Stack    []int
 	MinStack []int
