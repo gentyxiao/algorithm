@@ -1,11 +1,12 @@
-package exercise
+package list
 
 type ListNode struct {
 	Val  int
 	Next *ListNode
 }
 
-func ReverseList(head *ListNode) *ListNode {
+// 翻转链表
+func reversList(head *ListNode) *ListNode {
 	var pre *ListNode
 	curr := head
 	for curr != nil {
