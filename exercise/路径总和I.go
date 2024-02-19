@@ -1,10 +1,10 @@
 package exercise
 
-// type TreeNode struct {
-// 	Val   int
-// 	Left  *TreeNode
-// 	Right *TreeNode
-// }
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
 
 // 路径总和是否存在
 func HasPathSum(root *TreeNode, targetSum int) bool {
