@@ -21,7 +21,7 @@ func FindPeakElement2(nums []int) int {
 	// 方便处理 nums[-1] 以及 nums[n] 的边界情况
 	get := func(i int) int {
 		if i == -1 || i == n {
-			return math.MinInt64
+			return math.MinInt
 		}
 		return nums[i]
 	}
